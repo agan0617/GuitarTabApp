@@ -17,7 +17,7 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
 /**
- * 吉他譜架 App：整個畫面是一個 WebView，直接開線上的網頁版（GitHub Pages），做法跟魔塔、K書吧 App 一樣。
+ * K吉他 App：整個畫面是一個 WebView，直接開線上的網頁版（GitHub Pages），做法跟魔塔、K書吧 App 一樣。
  * 網頁版改了，App 下次打開就是新的，不用重新打包 APK。
  * 看譜時手在彈吉他，所以 App 開著的時候螢幕一律不關（WebView 不一定支援網頁的 Wake Lock）；
  * 藍牙翻頁踏板送的按鍵直接交給網頁處理。
@@ -69,7 +69,7 @@ public class MainActivity extends Activity {
                     v.loadDataWithBaseURL(null,
                             "<meta name='viewport' content='width=device-width,initial-scale=1'>"
                             + "<body style='font-family:sans-serif;text-align:center;padding:30vh 24px 0;color:#aaa;background:#1f2933'>"
-                            + "<p>連不上網路，吉他譜架打不開。</p><p><a href='" + HOME + "' style='color:#4fb386'>網路恢復後點這裡重試</a></p></body>",
+                            + "<p>連不上網路，K吉他打不開。</p><p><a href='" + HOME + "' style='color:#4fb386'>網路恢復後點這裡重試</a></p></body>",
                             "text/html", "utf-8", null);
                 }
             }

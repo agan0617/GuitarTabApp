@@ -1,6 +1,6 @@
-# 吉他譜架 Android App
+# K吉他 Android App
 
-[吉他譜架](https://github.com/agan0617/GuitarTab)（邊彈邊看吉他譜的網頁）的 Android 外殼。
+[K吉他](https://github.com/agan0617/GuitarTab)（邊彈邊看吉他譜的網頁）的 Android 外殼。
 
 - 整個畫面是一個 WebView，載入 <https://agan0617.github.io/GuitarTab/>。網頁更新 App 不用重裝
 - App 開著時螢幕不會自動關；全螢幕顯示，從邊緣滑一下叫出系統列
